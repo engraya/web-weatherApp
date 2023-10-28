@@ -1,6 +1,6 @@
 .starter{
     width:550px;
-    height:100px;
+    height:130px;
     margin:auto;
     margin-top:40px;
     margin-bottom:20px;
@@ -11,6 +11,13 @@
 
 }
 
+.starter img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
 
 .container{
     width:550px;
@@ -27,12 +34,12 @@
     display:flex;
     justify-content: center;
     gap: 16px;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .top-bar input{
     display:flex;
-    width: 400px;
+    width: 470px;
     height: 40px;
     background: azure;
     border: 2px;
@@ -43,14 +50,107 @@
     font-size: 20px;
     font-weight: 400;
 }
-
-/* .search-icon{
-    display: fle;
+ 
+.search-icon{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
-    height: 74px;
+    width: 60px;
+    height: 50px;
     background: azure;
-    border-radius: 40px;
+    border-radius: 50%;
     cursor: pointer;
-} */
+}  
+
+.search-icon img{
+    width:40px;
+    height: 40px;
+    display: flex;
+}
+
+
+.weatherImage{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.weatherImage img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.weatherTemp{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.weatherLocation{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+
+.weatherLocation img{
+    width:50px;
+    height: 50px;
+    display: flex;
+    margin-top: 9px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.data-container{
+    margin-top: 10px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.data-container .element img{
+    height: 80px;
+    width: 80px;
+    background-color: azure;
+    border-radius: 20%;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+}
+
+.data{
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.icon{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
