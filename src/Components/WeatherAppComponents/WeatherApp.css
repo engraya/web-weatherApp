@@ -1,29 +1,39 @@
 .starter{
-    width:550px;
-    height:130px;
-    margin:auto;
-    margin-top:40px;
-    margin-bottom:20px;
-    border-radius:15px;
+    width:100%;
+    height:70px;
+    padding: 0;
+    margin-bottom:10px;
     background-color:rgb(3, 30, 41);
     -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #39454d;
     box-shadow: 5px 5px 7px #0f8a7f, -5px -5px 7px #012029;
 
+
+
 }
 
 .starter img{
-    height: 100px;
+    height: 55px;
     width: 100px;
     align-items: center;
     justify-content: center;
     padding-top: 10px;
 }
 
+
+.starter .tittle{
+    color: azure;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .container{
     width:550px;
     height: 750px;
     margin:auto;
     margin-top:10px;
+    margin-bottom: 20px;
     border-radius:15px;
     background-color:rgb(1, 16, 22);
     -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #39454d;
@@ -105,6 +115,31 @@
     margin-top: 9px;
 }
 
+.weatherCountry{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.weatherDescription{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+.weatherMain{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
 .search{
     display: flex;
     justify-content: center;
@@ -115,15 +150,15 @@
 }
 
 .data-container{
-    margin-top: 10px;
+    margin-top: 1px;
     color: azure;
     display: flex;
     justify-content: center;
 }
 
 .data-container .element img{
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     background-color: azure;
     border-radius: 20%;
 }
@@ -136,7 +171,7 @@
 }
 
 .data{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     align-items: center;
     justify-content: center;
@@ -144,7 +179,7 @@
 }
 
 .text{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -152,5 +187,7 @@
     margin-top: 10px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    
     
 }
