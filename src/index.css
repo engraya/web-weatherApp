@@ -8,6 +8,9 @@ body {
   background: url('./Components/Assets/2150644606.jpg');
   margin: 0;
   padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 
 }

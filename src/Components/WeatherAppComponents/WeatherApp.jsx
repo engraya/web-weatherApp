@@ -15,6 +15,11 @@ import visibilityIcon from '../Assets/visibility.png'
 
 const WeatherApp = () => {
 
+
+
+
+    
+
     let apiKey = 'bdacd8a7aedafe877ddd88b275c780f7'
 
     const [weatherDisplayIcon, setWweatherDisplayIcon] = useState(cloudIcon);
