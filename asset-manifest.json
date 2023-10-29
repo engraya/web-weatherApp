@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web-weatherApp/static/css/main.f072b08d.css",
+    "main.css": "/web-weatherApp/static/css/main.7e618347.css",
     "main.js": "/web-weatherApp/static/js/main.daa33653.js",
     "static/js/787.d62d1c65.chunk.js": "/web-weatherApp/static/js/787.d62d1c65.chunk.js",
     "static/media/2150644606.jpg": "/web-weatherApp/static/media/2150644606.dfb6acc50aef763831a6.jpg",
@@ -16,12 +16,12 @@
     "static/media/pressure-svgrepo-com.png": "/web-weatherApp/static/media/pressure-svgrepo-com.9e3165e06e6f5216f78f.png",
     "static/media/visibility.png": "/web-weatherApp/static/media/visibility.d2b29d620663dd1c6a0c.png",
     "index.html": "/web-weatherApp/index.html",
-    "main.f072b08d.css.map": "/web-weatherApp/static/css/main.f072b08d.css.map",
+    "main.7e618347.css.map": "/web-weatherApp/static/css/main.7e618347.css.map",
     "main.daa33653.js.map": "/web-weatherApp/static/js/main.daa33653.js.map",
     "787.d62d1c65.chunk.js.map": "/web-weatherApp/static/js/787.d62d1c65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f072b08d.css",
+    "static/css/main.7e618347.css",
     "static/js/main.daa33653.js"
   ]
 }
